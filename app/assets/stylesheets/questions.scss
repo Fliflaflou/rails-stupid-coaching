@@ -1,0 +1,16 @@
+// Place all the styles related to the questions controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: https://sass-lang.com/
+
+body{
+  margin: 0;
+  padding: 0;
+  background-color: aqua;
+  display:flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  & > * {
+    color: black;
+  }
+}
